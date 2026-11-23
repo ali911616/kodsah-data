@@ -1,6 +1,6 @@
 {
- "version": 202611230959,
- "generatedAt": "2026-11-23T06:59:49Z",
+ "version": 202611231555,
+ "generatedAt": "2026-11-23T12:55:35Z",
  "regions": [
   {"id": "central", "name": "الوسطى", "cities": "الرياض والقصيم والخرج"},
   {"id": "western", "name": "الغربية", "cities": "جدة ومكة والمدينة والطائف"},
@@ -49,6 +49,7 @@
   {"id": "carrefour-official", "retailer": "carrefour", "title": "عروض الموقع الرسمي", "viewer": "https://www.carrefourksa.com/", "source": "https://www.carrefourksa.com/", "evergreen": true},
   {"id": "tamimi-weekly-wk-47-sa26", "retailer": "tamimi", "title": "المجلة الأسبوعية", "viewer": "https://viewer.tamimimarkets.com/tamimi-weekly-flyer-23/", "source": "https://viewer.tamimimarkets.com/tamimi-weekly-flyer-23/", "cover": "https://cdn.ipaper.io/OpenGraphImage.ashx?v=eyJQYXBlckd1aWQiOiIyNDAyYjE5OC0yNjRjLTRjNDItOTJiNC1mOWI4OTUzZWZjOTYiLCJQYWdlTnVtYmVyIjoxLCJQYWdlQ291bnQiOjYzLCJTdGFydE9uU3ByZWFkIjpmYWxzZSwiVXJsIjoiL3RhbWltaS1tYXJrZXRzL3drLTQ3LXNhMjYvIiwiUGFydG5lck5hbWUiOiJpUGFwZXIifQ==", "pageCount": 63, "published": "2026-11-23"},
   {"id": "tamimi-42-20261118", "retailer": "tamimi", "title": "أطعمة لذيذة", "pdf": "https://tmmflyer-ireland.s3.eu-west-1.amazonaws.com/flyer/DELI.pdf", "source": "https://corp.tamimimarkets.com/offers", "published": "2026-11-18"},
+  {"id": "tamimi-60-20261118", "retailer": "tamimi", "title": "زيادة الخير خيرين", "pdf": "https://tmmflyer-ireland.s3.eu-west-1.amazonaws.com/flyer/Double+Your+Savings.pdf", "source": "https://corp.tamimimarkets.com/offers", "published": "2026-11-18"},
   {"id": "tamimi-71-20261118", "retailer": "tamimi", "title": "عروض خاصة في الشرقية", "regions": ["eastern"], "pdf": "https://tmmflyer-ireland.s3.eu-west-1.amazonaws.com/Ash+Sharq%C4%AByah/S108.pdf", "source": "https://corp.tamimimarkets.com/offers", "published": "2026-11-18"},
   {"id": "tamimi-84-20261118", "retailer": "tamimi", "title": "عروض الأونلاين", "pdf": "https://tmmflyer-ireland.s3.eu-west-1.amazonaws.com/flyer/Online+offers.pdf", "source": "https://corp.tamimimarkets.com/offers", "published": "2026-11-18"},
   {"id": "tamimi-87-20261118", "retailer": "tamimi", "title": "عروض خاصة · المنطقة الغربية", "regions": ["western"], "pdf": "https://tmmflyer-ireland.s3.eu-west-1.amazonaws.com/Makkah+al+Mukarramah/Jeddah/S514.pdf", "source": "https://corp.tamimimarkets.com/offers", "published": "2026-11-18"},

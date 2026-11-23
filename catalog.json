@@ -1,297 +1,92 @@
 {
-  "version": 1,
-  "updatedAt": "2026-11-20",
-  "categories": [
-    { "id": "marketplace", "name": "تسوّق شامل", "icon": "shopping_bag", "color": "#F59E0B" },
-    { "id": "fashion", "name": "أزياء", "icon": "checkroom", "color": "#EC4899" },
-    { "id": "beauty", "name": "عطور وجمال", "icon": "spa", "color": "#A855F7" },
-    { "id": "eyewear", "name": "نظارات", "icon": "glasses", "color": "#0EA5E9" },
-    { "id": "jewelry", "name": "ساعات ومجوهرات", "icon": "diamond", "color": "#D4A017" },
-    { "id": "sports", "name": "رياضة وأحذية", "icon": "sports_soccer", "color": "#10B981" },
-    { "id": "delivery", "name": "توصيل", "icon": "delivery_dining", "color": "#6366F1" },
-    { "id": "gifts", "name": "ورود وهدايا", "icon": "local_florist", "color": "#F43F5E" },
-    { "id": "home", "name": "منزل وضيافة", "icon": "chair", "color": "#F97316" },
-    { "id": "health", "name": "صحة وعافية", "icon": "health_and_safety", "color": "#14B8A6" },
-    { "id": "cars", "name": "سيارات", "icon": "directions_car", "color": "#3B82F6" },
-    { "id": "services", "name": "خدمات رقمية", "icon": "storefront", "color": "#8B5CF6" }
-  ],
-  "stores": [
-    {
-      "id": "noon", "name": "نون", "nameEn": "noon",
-      "description": "متجر إلكتروني شامل: إلكترونيات، أزياء، جمال ومستلزمات البيت بتوصيل سريع",
-      "categories": ["marketplace"], "url": "https://www.noon.com/saudi-ar/",
-      "color": "#FEEE00", "logo": "assets/logos/noon.png", "featured": true,
-      "keywords": ["نون", "noon", "الكترونيات", "جوالات"]
-    },
-    {
-      "id": "iherb", "name": "آي هيرب", "nameEn": "iHerb",
-      "description": "فيتامينات ومكملات غذائية ومنتجات عناية طبيعية وعضوية بأسعار منافسة",
-      "categories": ["health", "beauty"], "url": "https://sa.iherb.com",
-      "color": "#4A8C2A", "logo": "assets/logos/iherb.png", "featured": true,
-      "keywords": ["اي هيرب", "ايهيرب", "آي هيرب", "iherb", "فيتامينات", "مكملات"]
-    },
-    {
-      "id": "namshi", "name": "نمشي", "nameEn": "Namshi",
-      "description": "أزياء وأحذية ومنتجات تجميل من أشهر الماركات العالمية والمحلية",
-      "categories": ["fashion"], "url": "https://www.namshi.com/saudi-ar/",
-      "color": "#111111", "monogram": "نمشي", "featured": true,
-      "keywords": ["نمشي", "namshi", "ملابس", "احذية"]
-    },
-    {
-      "id": "shein", "name": "شي إن", "nameEn": "SHEIN",
-      "description": "أزياء وإكسسوارات ومستلزمات بأسعار مناسبة وتشكيلات تتجدد يومياً",
-      "categories": ["fashion", "marketplace"], "url": "https://ar.shein.com/",
-      "color": "#111111", "logo": "assets/logos/shein.png", "featured": true,
-      "keywords": ["شي ان", "شين", "shein", "ملابس"]
-    },
-    {
-      "id": "niceone", "name": "نايس ون", "nameEn": "Nice One",
-      "description": "متجر مختص بالمكياج والعطور ومنتجات العناية",
-      "categories": ["beauty"], "url": "https://niceonesa.com/ar",
-      "color": "#111111", "logo": "assets/logos/niceone.png", "featured": true,
-      "keywords": ["نايس ون", "nice one", "niceone", "مكياج", "عطور"]
-    },
-    {
-      "id": "styli", "name": "ستايلي", "nameEn": "Styli",
-      "description": "أحدث صيحات الموضة للنساء والرجال والأطفال بأسعار منافسة",
-      "categories": ["fashion"], "url": "https://stylishop.com/sa/ar",
-      "color": "#111111", "logo": "assets/logos/styli.png", "featured": true,
-      "keywords": ["ستايلي", "styli", "ستايل"]
-    },
-    {
-      "id": "eyewa", "name": "آيوا", "nameEn": "eyewa",
-      "description": "نظارات طبية وشمسية وعدسات لاصقة من أشهر الماركات",
-      "categories": ["eyewear"], "url": "https://eyewa.com/sa-ar",
-      "color": "#2BA39A", "logo": "assets/logos/eyewa.png", "featured": true,
-      "keywords": ["ايوا", "eyewa", "نظارات", "عدسات"]
-    },
-    {
-      "id": "vogacloset", "name": "فوغا كلوسيت", "nameEn": "VogaCloset",
-      "description": "أزياء نسائية عصرية: فساتين وعبايات وإطلالات مميزة",
-      "categories": ["fashion"], "url": "https://www.vogacloset.com",
-      "color": "#9F7AEA", "logo": "assets/logos/vogacloset.png", "featured": true,
-      "keywords": ["فوغا", "فوقا", "voga", "vogacloset", "فساتين"]
-    },
-    {
-      "id": "toyou", "name": "تويو", "nameEn": "ToYou",
-      "description": "توصيل طلباتك من المطاعم والمتاجر لين باب بيتك",
-      "categories": ["delivery"], "url": "https://toyou.io",
-      "color": "#0E4A86", "logo": "assets/logos/toyou.png", "featured": true,
-      "keywords": ["تويو", "تو يو", "toyou", "توصيل", "مطاعم"]
-    },
-    {
-      "id": "deraah", "name": "درعة", "nameEn": "Deraah",
-      "description": "عطور وعود ومستحضرات تجميل وأطقم هدايا من علامة سعودية معروفة",
-      "categories": ["beauty", "gifts"], "url": "https://deraah.com",
-      "color": "#C2185B", "logo": "assets/logos/deraah.png", "featured": true,
-      "keywords": ["درعة", "درعه", "deraah", "عطور", "عود"]
-    },
-    {
-      "id": "levelshoes", "name": "ليفل شوز", "nameEn": "Level Shoes",
-      "description": "أحذية وحقائب فاخرة من أشهر دور الأزياء العالمية",
-      "categories": ["sports", "fashion"], "url": "https://www.levelshoes.com",
-      "color": "#1A1A1A", "logo": "assets/logos/levelshoes.png",
-      "keywords": ["ليفل شوز", "level shoes", "احذية"]
-    },
-    {
-      "id": "puma", "name": "بوما", "nameEn": "PUMA",
-      "description": "ملابس وأحذية ومستلزمات رياضية",
-      "categories": ["sports"], "url": "https://sa.puma.com/sa/ar",
-      "color": "#111111", "logo": "assets/logos/puma.png",
-      "keywords": ["بوما", "puma", "رياضة", "احذية"]
-    },
-    {
-      "id": "damas", "name": "داماس", "nameEn": "Damas Jewellery",
-      "description": "مجوهرات وذهب وألماس بتصاميم فاخرة",
-      "categories": ["jewelry"], "url": "https://www.damasjewel.com",
-      "color": "#8C6A3F", "monogram": "damas",
-      "keywords": ["داماس", "damas", "مجوهرات", "ذهب"]
-    },
-    {
-      "id": "victoriassecret", "name": "فيكتوريا سيكريت", "nameEn": "Victoria's Secret",
-      "description": "عطور ولانجري ومنتجات عناية من فيكتوريا سيكريت",
-      "categories": ["beauty", "fashion"], "url": "https://www.victoriassecret.com.sa",
-      "color": "#D9547A", "logo": "assets/logos/victoriassecret.png",
-      "keywords": ["فيكتوريا سيكريت", "فكتوريا", "victoria secret", "عطور"]
-    },
-    {
-      "id": "bloomingdales", "name": "بلومينغديلز", "nameEn": "Bloomingdale's",
-      "description": "متجر فاخر للأزياء والجمال والإكسسوارات العالمية",
-      "categories": ["fashion"], "url": "https://bloomingdales.sa",
-      "color": "#111111", "logo": "assets/logos/bloomingdales.png",
-      "keywords": ["بلومينغديلز", "بلومنجديلز", "bloomingdales"]
-    },
-    {
-      "id": "dkny", "name": "دي كي ان واي", "nameEn": "DKNY",
-      "description": "أزياء وحقائب وإكسسوارات بروح نيويورك",
-      "categories": ["fashion"], "url": "https://www.dkny.com",
-      "color": "#111111", "logo": "assets/logos/dkny.png",
-      "keywords": ["dkny", "دي كي ان واي", "شنط"]
-    },
-    {
-      "id": "whites", "name": "وايتس", "nameEn": "Whites",
-      "description": "صيدلية وايتس: مكياج وعناية بالبشرة والشعر وأدوية ومكملات",
-      "categories": ["beauty", "health"], "url": "https://www.whites.sa/ar-sa",
-      "color": "#F5D000", "logo": "assets/logos/whites.png",
-      "keywords": ["وايتس", "whites", "صيدلية", "مكملات"]
-    },
-    {
-      "id": "dermazone", "name": "ديرمازون", "nameEn": "Dermazone",
-      "description": "منتجات أصلية للعناية بالبشرة والشعر والجسم والصحة العامة",
-      "categories": ["beauty", "health"], "url": "https://www.dermazonestore.com",
-      "color": "#9C2A5B", "logo": "assets/logos/dermazone.png",
-      "keywords": ["ديرمازون", "ديرما", "dermazone", "بشرة"]
-    },
-    {
-      "id": "cardial", "name": "كارديال", "nameEn": "Cardial",
-      "description": "ساعات رجالية ونسائية فاخرة مع إكسسوارات وعطور ونظارات",
-      "categories": ["jewelry"], "url": "https://cardial.sa/ar",
-      "color": "#B38B4D", "logo": "assets/logos/cardial.png",
-      "keywords": ["كارديال", "cardial", "ساعات"]
-    },
-    {
-      "id": "florose", "name": "فلوروز", "nameEn": "Florose",
-      "description": "تنسيقات ورود وهدايا فاخرة لكل المناسبات مع توصيل سريع",
-      "categories": ["gifts"], "url": "https://florose.com",
-      "color": "#0B4A3A", "logo": "assets/logos/florose.png",
-      "keywords": ["فلوروز", "florose", "ورد", "زهور", "هدايا"]
-    },
-    {
-      "id": "blends", "name": "بلندز هوم", "nameEn": "Blends Home",
-      "description": "ترامس قهوة وشاي وأواني ضيافة فاخرة",
-      "categories": ["home"], "url": "https://blendshome.com",
-      "color": "#1E1E1E", "logo": "assets/logos/blends.png",
-      "keywords": ["بلندز", "blends", "ترامس", "ضيافة"]
-    },
-    {
-      "id": "labayh", "name": "لبيه", "nameEn": "Labayh",
-      "description": "استشارات نفسية وأسرية أونلاين مع مختصين بكل سهولة وخصوصية",
-      "categories": ["health"], "url": "https://labayh.net/ar/",
-      "color": "#2F6BFF", "logo": "assets/logos/labayh.png",
-      "keywords": ["لبيه", "labayh", "استشارة", "نفسية"]
-    },
-    {
-      "id": "sayaratech", "name": "سيارتك", "nameEn": "SayaraTech",
-      "description": "خدمات العناية بسيارتك: غسيل، تغيير زيت، إطارات وبطاريات",
-      "categories": ["cars"], "url": "https://sayaratech.com",
-      "color": "#00BFA6", "logo": "assets/logos/sayaratech.png",
-      "keywords": ["سيارتك", "سيارة تك", "sayara", "غسيل", "زيت"]
-    },
-    {
-      "id": "zid", "name": "زد", "nameEn": "Zid",
-      "description": "منصة سعودية لإنشاء متجرك الإلكتروني وبدء البيع بسهولة",
-      "categories": ["services"], "url": "https://zid.sa/ar/",
-      "color": "#7C4DFF", "logo": "assets/logos/zid.png",
-      "keywords": ["زد", "zid", "متجر الكتروني"]
-    },
-    {
-      "id": "nice", "name": "نايس", "nameEn": "Nice",
-      "description": "أثاث ومستلزمات منزلية",
-      "categories": ["home"],
-      "color": "#C9A227", "monogram": "Nice", "monogramColor": "#2B2205",
-      "keywords": ["نايس", "nice", "اثاث"]
-    },
-    {
-      "id": "purenbio", "name": "بيورن بايو", "nameEn": "Purenbio",
-      "description": "كود خصم حصري لمتجر Purenbio",
-      "categories": ["beauty"],
-      "color": "#5E8C4A", "monogram": "PB",
-      "keywords": ["purenbio", "بيورن", "fons", "splender"]
-    }
-  ],
-  "coupons": [
-    { "id": "noon-fb64", "store": "noon", "code": "FB64", "kind": "exclusive", "title": "خصم حصري على طلباتك", "primary": true, "trending": true },
-    { "id": "noon-auc29", "store": "noon", "code": "AUC29", "kind": "exclusive", "title": "جرّبه إذا ما اشتغل الأساسي" },
-    { "id": "noon-tazr", "store": "noon", "code": "TAZR", "kind": "exclusive", "title": "جرّبه إذا ما اشتغل الأساسي" },
-    { "id": "noon-wac29", "store": "noon", "code": "WAC29", "kind": "exclusive", "title": "جرّبه إذا ما اشتغل الأساسي" },
-
-    { "id": "iherb-nll9977", "store": "iherb", "code": "NLL9977", "kind": "exclusive", "title": "خصم حصري على الفيتامينات والمكملات", "primary": true, "trending": true },
-    { "id": "iherb-pur1119", "store": "iherb", "code": "PUR1119", "kind": "exclusive", "title": "جرّبه إذا ما اشتغل الأساسي" },
-
-    { "id": "namshi-amn45", "store": "namshi", "code": "AMN45", "kind": "cashback", "value": 5, "title": "كاش باك 5% على طلبك", "terms": "بحد أقصى 10 ريال", "countries": ["SA", "AE"], "primary": true, "trending": true },
-    { "id": "namshi-aa123", "store": "namshi", "code": "AA123", "kind": "exclusive", "title": "جرّبه إذا ما اشتغل الأساسي" },
-    { "id": "namshi-zzz1", "store": "namshi", "code": "ZZZ1", "kind": "exclusive", "title": "جرّبه إذا ما اشتغل الأساسي" },
-
-    { "id": "shein-link", "store": "shein", "kind": "deal", "url": "https://shelnk.com/hnmur", "title": "تسوّق عبر رابطنا الخاص", "terms": "افتح الرابط وأكمل طلبك مباشرة", "primary": true, "trending": true },
-
-    { "id": "niceone-ex5", "store": "niceone", "code": "EX5", "kind": "exclusive", "title": "خصم حصري على المكياج والعطور", "primary": true, "trending": true },
-
-    { "id": "styli-zor", "store": "styli", "code": "ZOR", "kind": "exclusive", "title": "خصم حصري على أحدث الأزياء", "primary": true },
-    { "id": "styli-zzx", "store": "styli", "code": "ZZX", "kind": "exclusive", "title": "جرّبه إذا ما اشتغل الأساسي" },
-
-    { "id": "eyewa-aaas", "store": "eyewa", "code": "AAAS", "kind": "exclusive", "title": "خصم حصري على النظارات والعدسات", "primary": true, "trending": true },
-    { "id": "eyewa-bn46", "store": "eyewa", "code": "BN46", "kind": "exclusive", "title": "جرّبه إذا ما اشتغل الأساسي" },
-
-    { "id": "vogacloset-eqjw", "store": "vogacloset", "code": "EQJW", "kind": "exclusive", "title": "خصم حصري على الأزياء النسائية", "primary": true },
-    { "id": "vogacloset-ozve", "store": "vogacloset", "code": "OZVE", "kind": "exclusive", "title": "جرّبه إذا ما اشتغل الأساسي" },
-    { "id": "vogacloset-m3", "store": "vogacloset", "code": "M3", "kind": "exclusive", "title": "جرّبه إذا ما اشتغل الأساسي" },
-
-    { "id": "toyou-deal7", "store": "toyou", "code": "DEAL7", "kind": "freeDelivery", "title": "توصيل مجاني على طلبك", "terms": "الحد الأدنى للطلب 49 ريال", "countries": ["SA"], "primary": true, "trending": true },
-    { "id": "toyou-mc30", "store": "toyou", "code": "MC30", "kind": "freeDelivery", "title": "توصيل مجاني على طلبك", "terms": "الحد الأدنى للطلب 49 ريال", "countries": ["SA"] },
-    { "id": "toyou-mn36", "store": "toyou", "code": "MN36", "kind": "freeDelivery", "title": "توصيل مجاني على طلبك", "terms": "الحد الأدنى للطلب 49 ريال" },
-
-    { "id": "deraah-amn55", "store": "deraah", "code": "AMN55", "kind": "exclusive", "title": "خصم حصري على العطور والعود", "primary": true },
-
-    { "id": "levelshoes-lv52", "store": "levelshoes", "code": "LV52", "kind": "percent", "value": 10, "title": "خصم 10% على طلبك", "countries": ["SA", "AE", "KW"], "primary": true, "trending": true },
-
-    { "id": "puma-a81", "store": "puma", "code": "A81", "kind": "percent", "value": 10, "title": "خصم 10% على طلبك", "countries": ["SA", "AE"], "primary": true, "trending": true },
-
-    { "id": "damas-amj", "store": "damas", "code": "AMJ", "kind": "percent", "value": 5, "title": "خصم 5% على المجوهرات بسعرها الكامل", "terms": "على المنتجات غير المخفّضة", "countries": ["SA", "AE", "OM"], "primary": true },
-    { "id": "damas-sm", "store": "damas", "code": "SM", "kind": "percent", "value": 5, "title": "خصم 5% على المجوهرات بسعرها الكامل", "terms": "على المنتجات غير المخفّضة", "countries": ["SA", "AE", "OM"] },
-
-    { "id": "victoriassecret-a276", "store": "victoriassecret", "code": "A276", "kind": "exclusive", "title": "خصم حصري على العطور والعناية", "countries": ["SA"], "primary": true },
-
-    { "id": "bloomingdales-wow37", "store": "bloomingdales", "code": "WOW37", "kind": "exclusive", "title": "خصم حصري على الماركات العالمية", "primary": true },
-
-    { "id": "dkny-dk114", "store": "dkny", "code": "DK114", "kind": "exclusive", "title": "خصم حصري على الحقائب والأزياء", "primary": true },
-    { "id": "dkny-hanan", "store": "dkny", "code": "HANAN", "kind": "exclusive", "title": "جرّبه إذا ما اشتغل الأساسي" },
-    { "id": "dkny-mt4", "store": "dkny", "code": "MT4", "kind": "exclusive", "title": "جرّبه إذا ما اشتغل الأساسي" },
-
-    { "id": "whites-a215", "store": "whites", "code": "A215", "kind": "exclusive", "title": "خصم حصري على العناية والمكملات", "primary": true },
-
-    { "id": "dermazone-am41", "store": "dermazone", "code": "AM41", "kind": "exclusive", "title": "خصم حصري على منتجات العناية", "primary": true },
-
-    { "id": "cardial-a048", "store": "cardial", "code": "A048", "kind": "exclusive", "title": "خصم حصري على الساعات والإكسسوارات", "primary": true },
-
-    { "id": "florose-xx92", "store": "florose", "code": "xx92", "kind": "exclusive", "title": "خصم حصري على الورود والهدايا", "primary": true },
-
-    { "id": "blends-ex18", "store": "blends", "code": "EX18", "kind": "exclusive", "title": "خصم حصري على أواني الضيافة", "primary": true },
-
-    { "id": "labayh-am8", "store": "labayh", "code": "am8", "kind": "exclusive", "title": "خصم حصري على جلسات الاستشارة", "primary": true },
-
-    { "id": "sayaratech-mca17", "store": "sayaratech", "code": "MCA17", "kind": "exclusive", "title": "خصم حصري على خدمات العناية بالسيارة", "primary": true },
-
-    { "id": "zid-az173", "store": "zid", "code": "AZ173", "kind": "exclusive", "title": "خصم حصري على باقات المتاجر", "primary": true },
-
-    { "id": "nice-wf142", "store": "nice", "code": "WF142", "kind": "percent", "value": 10, "title": "خصم 10% على طلبك", "countries": ["SA"], "primary": true },
-
-    { "id": "purenbio-pnp306", "store": "purenbio", "code": "PNP306", "kind": "exclusive", "title": "خصم حصري على طلبك", "primary": true }
-  ],
-  "banners": [
-    {
-      "id": "white-friday", "badge": "لفترة محدودة", "title": "جهّز أكوادك\nللجمعة البيضاء",
-      "subtitle": "نون ونمشي وآي هيرب وغيرها", "cta": "تصفّح الأكواد",
-      "colors": ["#E9D29A", "#0E0D0B"], "target": "list:trending"
-    },
-    {
-      "id": "noon-fb64", "badge": "كود حصري", "title": "كود نون الحصري",
-      "subtitle": "استخدم كود FB64 على طلبك", "cta": "انسخ الكود",
-      "colors": ["#FEEE00", "#0E0D0B"], "target": "coupon:noon-fb64"
-    },
-    {
-      "id": "iherb-nll9977", "badge": "كود حصري", "title": "آي هيرب بخصم حصري",
-      "subtitle": "استخدم كود NLL9977 على طلبك", "cta": "انسخ الكود",
-      "colors": ["#5FAE34", "#0E0D0B"], "target": "coupon:iherb-nll9977"
-    },
-    {
-      "id": "toyou-delivery", "badge": "توصيل مجاني", "title": "توصيل مجاني مع تويو",
-      "subtitle": "كود DEAL7 والتوصيل علينا", "cta": "انسخ الكود",
-      "colors": ["#1E90FF", "#0E0D0B"], "target": "coupon:toyou-deal7"
-    },
-    {
-      "id": "puma-10", "badge": "خصم 10%", "title": "خصم 10% على بوما",
-      "subtitle": "كود A81 للسعودية والإمارات", "cta": "انسخ الكود",
-      "colors": ["#FFFFFF", "#0E0D0B"], "target": "coupon:puma-a81"
-    }
-  ]
+ "version": 2,
+ "updatedAt": "2026-11-23",
+ "categories": [
+  {"id": "marketplace", "name": "تسوّق شامل", "icon": "shopping_bag", "color": "#F59E0B"},
+  {"id": "fashion", "name": "أزياء", "icon": "checkroom", "color": "#EC4899"},
+  {"id": "beauty", "name": "عطور وجمال", "icon": "spa", "color": "#A855F7"},
+  {"id": "eyewear", "name": "نظارات", "icon": "glasses", "color": "#0EA5E9"},
+  {"id": "jewelry", "name": "ساعات ومجوهرات", "icon": "diamond", "color": "#D4A017"},
+  {"id": "sports", "name": "رياضة وأحذية", "icon": "sports_soccer", "color": "#10B981"},
+  {"id": "delivery", "name": "توصيل", "icon": "delivery_dining", "color": "#6366F1"},
+  {"id": "gifts", "name": "ورود وهدايا", "icon": "local_florist", "color": "#F43F5E"},
+  {"id": "home", "name": "منزل وضيافة", "icon": "chair", "color": "#F97316"},
+  {"id": "health", "name": "صحة وعافية", "icon": "health_and_safety", "color": "#14B8A6"},
+  {"id": "cars", "name": "سيارات", "icon": "directions_car", "color": "#3B82F6"},
+  {"id": "services", "name": "خدمات رقمية", "icon": "storefront", "color": "#8B5CF6"}
+ ],
+ "stores": [
+  {"id": "noon", "name": "نون", "nameEn": "noon", "description": "متجر إلكتروني شامل: إلكترونيات، أزياء، جمال ومستلزمات البيت بتوصيل سريع", "categories": ["marketplace"], "url": "https://www.noon.com/saudi-ar/", "color": "#FEEE00", "logo": "assets/logos/noon.png", "featured": true, "keywords": ["نون", "noon", "الكترونيات", "جوالات"]},
+  {"id": "iherb", "name": "آي هيرب", "nameEn": "iHerb", "description": "فيتامينات ومكملات غذائية ومنتجات عناية طبيعية وعضوية بأسعار منافسة", "categories": ["health", "beauty"], "url": "https://sa.iherb.com", "color": "#4A8C2A", "logo": "assets/logos/iherb.png", "featured": true, "keywords": ["اي هيرب", "ايهيرب", "آي هيرب", "iherb", "فيتامينات", "مكملات"]},
+  {"id": "namshi", "name": "نمشي", "nameEn": "Namshi", "description": "أزياء وأحذية ومنتجات تجميل من أشهر الماركات العالمية والمحلية", "categories": ["fashion"], "url": "https://www.namshi.com/saudi-ar/", "color": "#111111", "monogram": "نمشي", "featured": true, "keywords": ["نمشي", "namshi", "ملابس", "احذية"]},
+  {"id": "niceone", "name": "نايس ون", "nameEn": "Nice One", "description": "متجر مختص بالمكياج والعطور ومنتجات العناية", "categories": ["beauty"], "url": "https://niceonesa.com/ar", "color": "#111111", "logo": "assets/logos/niceone.png", "featured": true, "keywords": ["نايس ون", "nice one", "niceone", "مكياج", "عطور"]},
+  {"id": "styli", "name": "ستايلي", "nameEn": "Styli", "description": "أحدث صيحات الموضة للنساء والرجال والأطفال بأسعار منافسة", "categories": ["fashion"], "url": "https://stylishop.com/sa/ar", "color": "#111111", "logo": "assets/logos/styli.png", "featured": true, "keywords": ["ستايلي", "styli", "ستايل"]},
+  {"id": "eyewa", "name": "آيوا", "nameEn": "eyewa", "description": "نظارات طبية وشمسية وعدسات لاصقة من أشهر الماركات", "categories": ["eyewear"], "url": "https://eyewa.com/sa-ar", "color": "#2BA39A", "logo": "assets/logos/eyewa.png", "featured": true, "keywords": ["ايوا", "eyewa", "نظارات", "عدسات"]},
+  {"id": "vogacloset", "name": "فوغا كلوسيت", "nameEn": "VogaCloset", "description": "أزياء نسائية عصرية: فساتين وعبايات وإطلالات مميزة", "categories": ["fashion"], "url": "https://www.vogacloset.com", "color": "#9F7AEA", "logo": "assets/logos/vogacloset.png", "featured": true, "keywords": ["فوغا", "فوقا", "voga", "vogacloset", "فساتين"]},
+  {"id": "toyou", "name": "تويو", "nameEn": "ToYou", "description": "توصيل طلباتك من المطاعم والمتاجر لين باب بيتك", "categories": ["delivery"], "url": "https://toyou.io", "color": "#0E4A86", "logo": "assets/logos/toyou.png", "featured": true, "keywords": ["تويو", "تو يو", "toyou", "توصيل", "مطاعم"]},
+  {"id": "deraah", "name": "درعة", "nameEn": "Deraah", "description": "عطور وعود ومستحضرات تجميل وأطقم هدايا من علامة سعودية معروفة", "categories": ["beauty", "gifts"], "url": "https://deraah.com", "color": "#C2185B", "logo": "assets/logos/deraah.png", "featured": true, "keywords": ["درعة", "درعه", "deraah", "عطور", "عود"]},
+  {"id": "levelshoes", "name": "ليفل شوز", "nameEn": "Level Shoes", "description": "أحذية وحقائب فاخرة من أشهر دور الأزياء العالمية", "categories": ["sports", "fashion"], "url": "https://www.levelshoes.com", "color": "#1A1A1A", "logo": "assets/logos/levelshoes.png", "keywords": ["ليفل شوز", "level shoes", "احذية"]},
+  {"id": "puma", "name": "بوما", "nameEn": "PUMA", "description": "ملابس وأحذية ومستلزمات رياضية", "categories": ["sports"], "url": "https://sa.puma.com/sa/ar", "color": "#111111", "logo": "assets/logos/puma.png", "keywords": ["بوما", "puma", "رياضة", "احذية"]},
+  {"id": "damas", "name": "داماس", "nameEn": "Damas Jewellery", "description": "مجوهرات وذهب وألماس بتصاميم فاخرة", "categories": ["jewelry"], "url": "https://www.damasjewel.com", "color": "#8C6A3F", "monogram": "damas", "keywords": ["داماس", "damas", "مجوهرات", "ذهب"]},
+  {"id": "victoriassecret", "name": "فيكتوريا سيكريت", "nameEn": "Victoria's Secret", "description": "عطور ولانجري ومنتجات عناية من فيكتوريا سيكريت", "categories": ["beauty", "fashion"], "url": "https://www.victoriassecret.com.sa", "color": "#D9547A", "logo": "assets/logos/victoriassecret.png", "keywords": ["فيكتوريا سيكريت", "فكتوريا", "victoria secret", "عطور"]},
+  {"id": "bloomingdales", "name": "بلومينغديلز", "nameEn": "Bloomingdale's", "description": "متجر فاخر للأزياء والجمال والإكسسوارات العالمية", "categories": ["fashion"], "url": "https://bloomingdales.sa", "color": "#111111", "logo": "assets/logos/bloomingdales.png", "keywords": ["بلومينغديلز", "بلومنجديلز", "bloomingdales"]},
+  {"id": "dkny", "name": "دي كي ان واي", "nameEn": "DKNY", "description": "أزياء وحقائب وإكسسوارات بروح نيويورك", "categories": ["fashion"], "url": "https://www.dkny.com", "color": "#111111", "logo": "assets/logos/dkny.png", "keywords": ["dkny", "دي كي ان واي", "شنط"]},
+  {"id": "dermazone", "name": "ديرمازون", "nameEn": "Dermazone", "description": "منتجات أصلية للعناية بالبشرة والشعر والجسم والصحة العامة", "categories": ["beauty", "health"], "url": "https://www.dermazonestore.com", "color": "#9C2A5B", "logo": "assets/logos/dermazone.png", "keywords": ["ديرمازون", "ديرما", "dermazone", "بشرة"]},
+  {"id": "cardial", "name": "كارديال", "nameEn": "Cardial", "description": "ساعات رجالية ونسائية فاخرة مع إكسسوارات وعطور ونظارات", "categories": ["jewelry"], "url": "https://cardial.sa/ar", "color": "#B38B4D", "logo": "assets/logos/cardial.png", "keywords": ["كارديال", "cardial", "ساعات"]},
+  {"id": "florose", "name": "فلوروز", "nameEn": "Florose", "description": "تنسيقات ورود وهدايا فاخرة لكل المناسبات مع توصيل سريع", "categories": ["gifts"], "url": "https://florose.com", "color": "#0B4A3A", "logo": "assets/logos/florose.png", "keywords": ["فلوروز", "florose", "ورد", "زهور", "هدايا"]},
+  {"id": "blends", "name": "بلندز هوم", "nameEn": "Blends Home", "description": "ترامس قهوة وشاي وأواني ضيافة فاخرة", "categories": ["home"], "url": "https://blendshome.com", "color": "#1E1E1E", "logo": "assets/logos/blends.png", "keywords": ["بلندز", "blends", "ترامس", "ضيافة"]},
+  {"id": "labayh", "name": "لبيه", "nameEn": "Labayh", "description": "استشارات نفسية وأسرية أونلاين مع مختصين بكل سهولة وخصوصية", "categories": ["health"], "url": "https://labayh.net/ar/", "color": "#2F6BFF", "logo": "assets/logos/labayh.png", "keywords": ["لبيه", "labayh", "استشارة", "نفسية"]},
+  {"id": "sayaratech", "name": "سيارتك", "nameEn": "SayaraTech", "description": "خدمات العناية بسيارتك: غسيل، تغيير زيت، إطارات وبطاريات", "categories": ["cars"], "url": "https://sayaratech.com", "color": "#00BFA6", "logo": "assets/logos/sayaratech.png", "keywords": ["سيارتك", "سيارة تك", "sayara", "غسيل", "زيت"]},
+  {"id": "zid", "name": "زد", "nameEn": "Zid", "description": "منصة سعودية لإنشاء متجرك الإلكتروني وبدء البيع بسهولة", "categories": ["services"], "url": "https://zid.sa/ar/", "color": "#7C4DFF", "logo": "assets/logos/zid.png", "keywords": ["زد", "zid", "متجر الكتروني"]},
+  {"id": "nice", "name": "نايس", "nameEn": "Nice", "description": "أثاث وديكور ومستلزمات المنزل والمطبخ", "categories": ["home"], "url": "https://www.nice.com.sa", "color": "#C9A227", "monogram": "Nice", "monogramColor": "#2B2205", "keywords": ["نايس", "nice", "اثاث", "ديكور", "مطبخ"]},
+  {"id": "purenbio", "name": "بيورن بايو", "nameEn": "Purenbio", "description": "كود خصم حصري لمتجر Purenbio", "categories": [], "color": "#5E8C4A", "monogram": "PB", "keywords": ["purenbio", "بيورن", "fons", "splender"]}
+ ],
+ "coupons": [
+  {"id": "noon-fb64", "store": "noon", "code": "FB64", "kind": "exclusive", "title": "خصم حصري على طلباتك", "primary": true, "trending": true},
+  {"id": "noon-auc29", "store": "noon", "code": "AUC29", "kind": "exclusive", "title": "جرّبه إذا ما اشتغل الأساسي"},
+  {"id": "noon-tazr", "store": "noon", "code": "TAZR", "kind": "exclusive", "title": "جرّبه إذا ما اشتغل الأساسي"},
+  {"id": "noon-wac29", "store": "noon", "code": "WAC29", "kind": "exclusive", "title": "جرّبه إذا ما اشتغل الأساسي"},
+  {"id": "iherb-nll9977", "store": "iherb", "code": "NLL9977", "kind": "exclusive", "title": "خصم حصري على الفيتامينات والمكملات", "primary": true, "trending": true},
+  {"id": "iherb-pur1119", "store": "iherb", "code": "PUR1119", "kind": "exclusive", "title": "جرّبه إذا ما اشتغل الأساسي"},
+  {"id": "namshi-amn45", "store": "namshi", "code": "AMN45", "kind": "cashback", "value": 5, "title": "كاش باك 5% على طلبك", "terms": "بحد أقصى 10 ريال", "countries": ["SA", "AE"], "primary": true, "trending": true},
+  {"id": "namshi-aa123", "store": "namshi", "code": "AA123", "kind": "exclusive", "title": "جرّبه إذا ما اشتغل الأساسي"},
+  {"id": "namshi-zzz1", "store": "namshi", "code": "ZZZ1", "kind": "exclusive", "title": "جرّبه إذا ما اشتغل الأساسي"},
+  {"id": "niceone-ex5", "store": "niceone", "code": "EX5", "kind": "exclusive", "title": "خصم حصري على المكياج والعطور", "primary": true, "trending": true},
+  {"id": "styli-zor", "store": "styli", "code": "ZOR", "kind": "exclusive", "title": "خصم حصري على أحدث الأزياء", "primary": true},
+  {"id": "styli-zzx", "store": "styli", "code": "ZZX", "kind": "exclusive", "title": "جرّبه إذا ما اشتغل الأساسي"},
+  {"id": "eyewa-aaas", "store": "eyewa", "code": "AAAS", "kind": "exclusive", "title": "خصم حصري على النظارات والعدسات", "primary": true, "trending": true},
+  {"id": "eyewa-bn46", "store": "eyewa", "code": "BN46", "kind": "exclusive", "title": "جرّبه إذا ما اشتغل الأساسي"},
+  {"id": "vogacloset-eqjw", "store": "vogacloset", "code": "EQJW", "kind": "exclusive", "title": "خصم حصري على الأزياء النسائية", "primary": true},
+  {"id": "vogacloset-ozve", "store": "vogacloset", "code": "OZVE", "kind": "exclusive", "title": "جرّبه إذا ما اشتغل الأساسي"},
+  {"id": "vogacloset-m3", "store": "vogacloset", "code": "M3", "kind": "exclusive", "title": "جرّبه إذا ما اشتغل الأساسي"},
+  {"id": "toyou-deal7", "store": "toyou", "code": "DEAL7", "kind": "freeDelivery", "title": "توصيل مجاني على طلبك", "terms": "الحد الأدنى للطلب 49 ريال", "countries": ["SA"], "primary": true, "trending": true},
+  {"id": "toyou-mc30", "store": "toyou", "code": "MC30", "kind": "freeDelivery", "title": "توصيل مجاني على طلبك", "terms": "الحد الأدنى للطلب 49 ريال", "countries": ["SA"]},
+  {"id": "toyou-mn36", "store": "toyou", "code": "MN36", "kind": "freeDelivery", "title": "توصيل مجاني على طلبك", "terms": "الحد الأدنى للطلب 49 ريال"},
+  {"id": "deraah-amn55", "store": "deraah", "code": "AMN55", "kind": "exclusive", "title": "خصم حصري على العطور والعود", "primary": true},
+  {"id": "levelshoes-lv52", "store": "levelshoes", "code": "LV52", "kind": "percent", "value": 10, "title": "خصم 10% على طلبك", "countries": ["SA", "AE", "KW"], "primary": true, "trending": true},
+  {"id": "puma-a81", "store": "puma", "code": "A81", "kind": "percent", "value": 10, "title": "خصم 10% على طلبك", "countries": ["SA", "AE"], "primary": true, "trending": true},
+  {"id": "damas-amj", "store": "damas", "code": "AMJ", "kind": "percent", "value": 5, "title": "خصم 5% على المجوهرات بسعرها الكامل", "terms": "على المنتجات غير المخفّضة", "countries": ["SA", "AE", "OM"], "primary": true},
+  {"id": "damas-sm", "store": "damas", "code": "SM", "kind": "percent", "value": 5, "title": "خصم 5% على المجوهرات بسعرها الكامل", "terms": "على المنتجات غير المخفّضة", "countries": ["SA", "AE", "OM"]},
+  {"id": "victoriassecret-a276", "store": "victoriassecret", "code": "A276", "kind": "exclusive", "title": "خصم حصري على العطور والعناية", "countries": ["SA"], "primary": true},
+  {"id": "bloomingdales-wow37", "store": "bloomingdales", "code": "WOW37", "kind": "exclusive", "title": "خصم حصري على الماركات العالمية", "primary": true},
+  {"id": "dkny-dk114", "store": "dkny", "code": "DK114", "kind": "exclusive", "title": "خصم حصري على الحقائب والأزياء", "primary": true},
+  {"id": "dkny-hanan", "store": "dkny", "code": "HANAN", "kind": "exclusive", "title": "جرّبه إذا ما اشتغل الأساسي"},
+  {"id": "dkny-mt4", "store": "dkny", "code": "MT4", "kind": "exclusive", "title": "جرّبه إذا ما اشتغل الأساسي"},
+  {"id": "dermazone-am41", "store": "dermazone", "code": "AM41", "kind": "exclusive", "title": "خصم حصري على منتجات العناية", "primary": true},
+  {"id": "cardial-a048", "store": "cardial", "code": "A048", "kind": "exclusive", "title": "خصم حصري على الساعات والإكسسوارات", "primary": true},
+  {"id": "florose-xx92", "store": "florose", "code": "xx92", "kind": "exclusive", "title": "خصم حصري على الورود والهدايا", "primary": true},
+  {"id": "blends-ex18", "store": "blends", "code": "EX18", "kind": "exclusive", "title": "خصم حصري على أواني الضيافة", "primary": true},
+  {"id": "labayh-am8", "store": "labayh", "code": "am8", "kind": "exclusive", "title": "خصم حصري على جلسات الاستشارة", "primary": true},
+  {"id": "sayaratech-mca17", "store": "sayaratech", "code": "MCA17", "kind": "exclusive", "title": "خصم حصري على خدمات العناية بالسيارة", "primary": true},
+  {"id": "zid-az173", "store": "zid", "code": "AZ173", "kind": "exclusive", "title": "خصم حصري على باقات المتاجر", "primary": true},
+  {"id": "nice-wf142", "store": "nice", "code": "WF142", "kind": "percent", "value": 10, "title": "خصم 10% على طلبك", "countries": ["SA"], "primary": true},
+  {"id": "purenbio-pnp306", "store": "purenbio", "code": "PNP306", "kind": "exclusive", "title": "خصم حصري على طلبك", "primary": true}
+ ],
+ "banners": [
+  {"id": "white-friday", "expiresAt": "2026-11-30", "badge": "لفترة محدودة", "title": "جهّز أكوادك\nللجمعة البيضاء", "subtitle": "نون ونمشي وآي هيرب وغيرها", "cta": "تصفّح الأكواد", "colors": ["#E9D29A", "#0E0D0B"], "target": "list:trending"},
+  {"id": "noon-fb64", "badge": "كود حصري", "title": "كود نون الحصري", "subtitle": "استخدم كود FB64 على طلبك", "cta": "انسخ الكود", "colors": ["#FEEE00", "#0E0D0B"], "target": "coupon:noon-fb64"},
+  {"id": "iherb-nll9977", "badge": "كود حصري", "title": "آي هيرب بخصم حصري", "subtitle": "استخدم كود NLL9977 على طلبك", "cta": "انسخ الكود", "colors": ["#5FAE34", "#0E0D0B"], "target": "coupon:iherb-nll9977"},
+  {"id": "toyou-delivery", "badge": "توصيل مجاني", "title": "توصيل مجاني مع تويو", "subtitle": "كود DEAL7 والتوصيل علينا", "cta": "انسخ الكود", "colors": ["#1E90FF", "#0E0D0B"], "target": "coupon:toyou-deal7"},
+  {"id": "puma-10", "badge": "خصم 10%", "title": "خصم 10% على بوما", "subtitle": "كود A81 للسعودية والإمارات", "cta": "انسخ الكود", "colors": ["#FFFFFF", "#0E0D0B"], "target": "coupon:puma-a81"}
+ ]
 }
