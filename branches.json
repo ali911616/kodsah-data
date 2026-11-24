@@ -1,6 +1,6 @@
 {
-  "version": 202611241143,
-  "generatedAt": "2026-11-24T08:43:45Z",
+  "version": 202611241705,
+  "generatedAt": "2026-11-24T14:05:24Z",
   "attribution": "مواقع بعض الفروع من خرائط OpenStreetMap ©",
   "map": {
     "tiles": "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
