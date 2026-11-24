@@ -1,5 +1,5 @@
 {
- "version": 2,
+ "version": 3,
  "updatedAt": "2026-11-23",
  "categories": [
   {"id": "marketplace", "name": "تسوّق شامل", "icon": "shopping_bag", "color": "#F59E0B"},
@@ -18,7 +18,7 @@
  "stores": [
   {"id": "noon", "name": "نون", "nameEn": "noon", "description": "متجر إلكتروني شامل: إلكترونيات، أزياء، جمال ومستلزمات البيت بتوصيل سريع", "categories": ["marketplace"], "url": "https://www.noon.com/saudi-ar/", "color": "#FEEE00", "logo": "assets/logos/noon.png", "featured": true, "keywords": ["نون", "noon", "الكترونيات", "جوالات"]},
   {"id": "iherb", "name": "آي هيرب", "nameEn": "iHerb", "description": "فيتامينات ومكملات غذائية ومنتجات عناية طبيعية وعضوية بأسعار منافسة", "categories": ["health", "beauty"], "url": "https://sa.iherb.com", "color": "#4A8C2A", "logo": "assets/logos/iherb.png", "featured": true, "keywords": ["اي هيرب", "ايهيرب", "آي هيرب", "iherb", "فيتامينات", "مكملات"]},
-  {"id": "namshi", "name": "نمشي", "nameEn": "Namshi", "description": "أزياء وأحذية ومنتجات تجميل من أشهر الماركات العالمية والمحلية", "categories": ["fashion"], "url": "https://www.namshi.com/saudi-ar/", "color": "#111111", "monogram": "نمشي", "featured": true, "keywords": ["نمشي", "namshi", "ملابس", "احذية"]},
+  {"id": "namshi", "name": "نمشي", "nameEn": "Namshi", "description": "أزياء وأحذية ومنتجات تجميل من أشهر الماركات العالمية والمحلية", "categories": ["fashion"], "url": "https://www.namshi.com/saudi-ar/", "color": "#111111", "logo": "assets/logos/namshi.png", "featured": true, "keywords": ["نمشي", "namshi", "ملابس", "احذية"]},
   {"id": "niceone", "name": "نايس ون", "nameEn": "Nice One", "description": "متجر مختص بالمكياج والعطور ومنتجات العناية", "categories": ["beauty"], "url": "https://niceonesa.com/ar", "color": "#111111", "logo": "assets/logos/niceone.png", "featured": true, "keywords": ["نايس ون", "nice one", "niceone", "مكياج", "عطور"]},
   {"id": "styli", "name": "ستايلي", "nameEn": "Styli", "description": "أحدث صيحات الموضة للنساء والرجال والأطفال بأسعار منافسة", "categories": ["fashion"], "url": "https://stylishop.com/sa/ar", "color": "#111111", "logo": "assets/logos/styli.png", "featured": true, "keywords": ["ستايلي", "styli", "ستايل"]},
   {"id": "eyewa", "name": "آيوا", "nameEn": "eyewa", "description": "نظارات طبية وشمسية وعدسات لاصقة من أشهر الماركات", "categories": ["eyewear"], "url": "https://eyewa.com/sa-ar", "color": "#2BA39A", "logo": "assets/logos/eyewa.png", "featured": true, "keywords": ["ايوا", "eyewa", "نظارات", "عدسات"]},
@@ -38,7 +38,7 @@
   {"id": "labayh", "name": "لبيه", "nameEn": "Labayh", "description": "استشارات نفسية وأسرية أونلاين مع مختصين بكل سهولة وخصوصية", "categories": ["health"], "url": "https://labayh.net/ar/", "color": "#2F6BFF", "logo": "assets/logos/labayh.png", "keywords": ["لبيه", "labayh", "استشارة", "نفسية"]},
   {"id": "sayaratech", "name": "سيارتك", "nameEn": "SayaraTech", "description": "خدمات العناية بسيارتك: غسيل، تغيير زيت، إطارات وبطاريات", "categories": ["cars"], "url": "https://sayaratech.com", "color": "#00BFA6", "logo": "assets/logos/sayaratech.png", "keywords": ["سيارتك", "سيارة تك", "sayara", "غسيل", "زيت"]},
   {"id": "zid", "name": "زد", "nameEn": "Zid", "description": "منصة سعودية لإنشاء متجرك الإلكتروني وبدء البيع بسهولة", "categories": ["services"], "url": "https://zid.sa/ar/", "color": "#7C4DFF", "logo": "assets/logos/zid.png", "keywords": ["زد", "zid", "متجر الكتروني"]},
-  {"id": "nice", "name": "نايس", "nameEn": "Nice", "description": "أثاث وديكور ومستلزمات المنزل والمطبخ", "categories": ["home"], "url": "https://www.nice.com.sa", "color": "#C9A227", "monogram": "Nice", "monogramColor": "#2B2205", "keywords": ["نايس", "nice", "اثاث", "ديكور", "مطبخ"]},
+  {"id": "nice", "name": "نايس", "nameEn": "Nice", "description": "أثاث وديكور ومستلزمات المنزل والمطبخ", "categories": ["home"], "url": "https://www.nice.com.sa", "color": "#F7A21B", "logo": "assets/logos/nice.png", "monogram": "Nice", "keywords": ["نايس", "nice", "اثاث", "ديكور", "مطبخ"]},
   {"id": "purenbio", "name": "بيورن بايو", "nameEn": "Purenbio", "description": "كود خصم حصري لمتجر Purenbio", "categories": [], "color": "#5E8C4A", "monogram": "PB", "keywords": ["purenbio", "بيورن", "fons", "splender"]}
  ],
  "coupons": [
