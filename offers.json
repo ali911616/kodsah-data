@@ -1,5 +1,5 @@
 {
- "version": 202611240253,
+ "version": 202611241230,
  "generatedAt": "2026-11-23T23:53:56Z",
  "regions": [
   {"id": "central", "name": "الوسطى", "cities": "الرياض والقصيم والخرج"},
@@ -25,7 +25,10 @@
   {"id": "ninja", "name": "نينجا", "nameEn": "Ninja", "keywords": ["نينجا", "ninja", "انا نينجا"], "category": "grocery", "regions": ["central", "western", "eastern", "southern", "northern"], "logo": "assets/retailers/ninja.png"},
   {"id": "noon", "name": "نون منتس", "nameEn": "noon Minutes", "keywords": ["نون", "noon", "نون منتس", "noon minutes"], "category": "grocery", "regions": ["central", "western", "eastern"], "logo": "assets/retailers/noon.png"},
   {"id": "nahdi", "name": "النهدي", "nameEn": "Nahdi", "offersUrl": "https://www.nahdionline.com/ar-sa/clp/promo-flyer", "keywords": ["صيدلية النهدي", "nahdi"], "category": "pharmacy", "logo": "assets/retailers/nahdi.png"},
-  {"id": "united", "name": "صيدلية المتحدة", "nameEn": "United Pharmacy", "offersUrl": "https://unitedpharmacy.sa/ar/monthly-magazine", "keywords": ["المتحدة", "united pharmacy"], "category": "pharmacy", "regions": ["western", "southern"], "logo": "assets/retailers/united.png"}
+  {"id": "united", "name": "صيدلية المتحدة", "nameEn": "United Pharmacy", "offersUrl": "https://unitedpharmacy.sa/ar/monthly-magazine", "keywords": ["المتحدة", "united pharmacy"], "category": "pharmacy", "regions": ["western", "southern"], "logo": "assets/retailers/united.png"},
+  {"id": "whites", "name": "وايتس", "nameEn": "Whites", "keywords": ["وايتس", "whites", "صيدلية وايتس"], "category": "pharmacy", "logo": "assets/retailers/whites.png"},
+  {"id": "lemon", "name": "صيدلية ليمون", "nameEn": "Lemon Pharmacy", "keywords": ["ليمون", "lemon", "صيدلية ليمون"], "category": "pharmacy", "logo": "assets/retailers/lemon.png"},
+  {"id": "dawaa", "name": "الدواء", "nameEn": "Al-Dawaa", "keywords": ["صيدليات الدواء", "الدواء", "al-dawaa", "aldawaa"], "category": "pharmacy", "logo": "assets/retailers/dawaa.png"}
  ],
  "flyers": [
   {"id": "panda-h9f6mmcrzp-20261118", "retailer": "panda", "title": "المجلة الأسبوعية", "published": "2026-11-18", "viewer": "https://leaflet.panda.sa/index-1.html", "source": "https://leaflet.panda.sa/index-1.html", "pageCount": 114, "flipbook": {"type": "flipsnack", "url": "https://leaflet.panda.sa/index-1.html"}},
