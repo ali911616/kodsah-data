@@ -1,0 +1,32 @@
+{
+ "version": 202611250345,
+ "generatedAt": "2026-11-25T00:45:17Z",
+ "category": "car_inspection",
+ "attribution": "المواقع من خرائط OpenStreetMap (© OpenStreetMap contributors، رخصة ODbL).",
+ "chains": [
+ ],
+ "places": [
+  {"lat":25.4153,"lng":49.47853,"city":"ahsa"},
+  {"n":"الفحص الفني الدوري للسيارات","d":"حي الصناعية","lat":25.41541,"lng":49.4783,"city":"ahsa"},
+  {"n":"Motor Vehicle Periodical Inspection","lat":26.37265,"lng":50.02923,"city":"dammam"},
+  {"lat":26.38354,"lng":50.12017,"city":"dammam"},
+  {"n":"صيانة تشانجان (الخالدية)","lat":26.40227,"lng":50.17082,"city":"dammam"},
+  {"lat":26.30782,"lng":50.09004,"city":"dhahran"},
+  {"lat":16.93435,"lng":42.74845,"city":"jazan"},
+  {"n":"Periodic examination station","lat":16.93459,"lng":42.74842,"city":"jazan"},
+  {"lat":21.44144,"lng":39.27144,"city":"jeddah","h":"Sa-Th 07:00-12:00, 13:00-16:00"},
+  {"lat":21.62339,"lng":39.1944,"city":"jeddah"},
+  {"n":"محطة الفحص الدوري للسيارات والمركبات","lat":25.87786,"lng":45.37669,"city":"majmaah"},
+  {"n":"الفحص الدوري للمركبات في الرس","lat":25.82735,"lng":43.5152,"city":"rass"},
+  {"n":"MVPI FAHAS SHIFA DIRAB","lat":24.51084,"lng":46.64161,"city":"riyadh"},
+  {"n":"Periodic Inspection Service","lat":24.82057,"lng":46.78424,"city":"riyadh","h":"07:30 - 23:00"},
+  {"n":"سلامة - الفحص الفني الدوري للسيارات","lat":24.8592,"lng":46.5749,"city":"riyadh"},
+  {"n":"مركز تقدير أضرار المركبات","lat":16.95576,"lng":42.85975,"city":"sabya"},
+  {"lat":29.88659,"lng":40.24196,"city":"sakaka"},
+  {"n":"الصناعية الجديدة للسيارات بتبوك","lat":28.53952,"lng":36.62507,"city":"tabuk"},
+  {"n":"Motor Vehicle Periodic Inspection","lat":21.41163,"lng":40.44948,"city":"taif"},
+  {"n":"الفحص الفني الدوري للسيارات","lat":26.18795,"lng":43.99466,"city":"unaizah"},
+  {"n":"بترومين إكسبرس","lat":20.4632,"lng":44.8015},
+  {"n":"ورشة سيارات","lat":24.7163,"lng":42.9312}
+ ]
+}
